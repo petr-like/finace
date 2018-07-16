@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+   <dl class="dl-horizontal">
+       <dt>price</dt>
+       <dd>{{price | usd}}</dd>
+       <dt>symbol</dt>
+       <dd>{{symbol}}</dd>
+   </dl>
+{% endblock %}
